@@ -36,30 +36,10 @@ namespace SortingVisualizer
 
         private void Sort_Click(object sender, EventArgs e)
         {
-            int selected = comboBox1.SelectedIndex;
-            switch (selected)
-            {
-                case 0:
-                    ISortEngine sortEngineB = new SortEngineBubble();
-                    sortEngineB.doWork(theArray, g, panel1.Height);
-                    break;
-                case 1:
-                    ISortEngine sortEngineM = new SortEngineMerge();
-                    sortEngineM.doWork(theArray, g, panel1.Height);
-                    break;
-                case 2:
-                    ISortEngine sortEngineQ = new SortEngineQuick();
-                    sortEngineQ.doWork(theArray, g, panel1.Height);
-                    break;
-                case 3:
-                    ISortEngine sortEngineS = new SortEngineSelection();
-                    sortEngineS.doWork(theArray, g, panel1.Height);
-                    break;
-                
-                default:
-                    break;
-            }
-            
+            Sort.Enabled = false;
+            Reset.Enabled = false;
+            comboBox1.Enabled = false;
+            backgroundWorker1.RunWorkerAsync();           
         }
 
         private void Reset_Click(object sender, EventArgs e)
@@ -88,9 +68,54 @@ namespace SortingVisualizer
             }
         }
 
+
         private void Quit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            Reset_Click(sender, e);
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            int selected = comboBox1.SelectedIndex;
+
+            switch (selected)
+            {
+                case 0:
+                    ISortEngine sortEngineB = new SortEngineBubble();
+                    sortEngineB.doWork(theArray, g, panel1.Height);
+                    break;
+                case 1:
+                    ISortEngine sortEngineM = new SortEngineMerge();
+                    sortEngineM.doWork(theArray, g, panel1.Height);
+                    break;
+                case 2:
+                    ISortEngine sortEngineQ = new SortEngineQuick();
+                    sortEngineQ.doWork(theArray, g, panel1.Height);
+                    break;
+                case 3:
+                    ISortEngine sortEngineS = new SortEngineSelection();
+                    sortEngineS.doWork(theArray, g, panel1.Height);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+
+        }
+
+        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            Sort.Enabled = true;
+            Reset.Enabled = true;
+            comboBox1.Enabled = true;
         }
     }
 }
