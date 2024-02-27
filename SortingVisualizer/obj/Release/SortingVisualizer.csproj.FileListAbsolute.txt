@@ -1,0 +1,10 @@
+C:\Users\chase\OneDrive\Desktop\Game Projects\SortingVisualizer\SortingVisualizer\obj\Release\SortingVisualizer.csproj.AssemblyReference.cache
+C:\Users\chase\OneDrive\Desktop\Game Projects\SortingVisualizer\SortingVisualizer\bin\Release\SortingVisualizer.exe.config
+C:\Users\chase\OneDrive\Desktop\Game Projects\SortingVisualizer\SortingVisualizer\bin\Release\SortingVisualizer.exe
+C:\Users\chase\OneDrive\Desktop\Game Projects\SortingVisualizer\SortingVisualizer\bin\Release\SortingVisualizer.pdb
+C:\Users\chase\OneDrive\Desktop\Game Projects\SortingVisualizer\SortingVisualizer\obj\Release\SortingVisualizer.Form1.resources
+C:\Users\chase\OneDrive\Desktop\Game Projects\SortingVisualizer\SortingVisualizer\obj\Release\SortingVisualizer.Properties.Resources.resources
+C:\Users\chase\OneDrive\Desktop\Game Projects\SortingVisualizer\SortingVisualizer\obj\Release\SortingVisualizer.csproj.GenerateResource.cache
+C:\Users\chase\OneDrive\Desktop\Game Projects\SortingVisualizer\SortingVisualizer\obj\Release\SortingVisualizer.csproj.CoreCompileInputs.cache
+C:\Users\chase\OneDrive\Desktop\Game Projects\SortingVisualizer\SortingVisualizer\obj\Release\SortingVisualizer.exe
+C:\Users\chase\OneDrive\Desktop\Game Projects\SortingVisualizer\SortingVisualizer\obj\Release\SortingVisualizer.pdb
