@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|c:\\users\\chase\\onedrive\\desktop\\game projects\\sortingvisualizer\\sortingvisualizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|solutionrelative:sortingvisualizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|solutionrelative:SortingVisualizer\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|c:\\users\\chase\\onedrive\\desktop\\game projects\\sortingvisualizer\\sortingvisualizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|solutionrelative:sortingvisualizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|solutionrelative:SortingVisualizer\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|c:\\users\\chase\\onedrive\\desktop\\game projects\\sortingvisualizer\\sortingvisualizer\\sortenginebubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|solutionrelative:sortingvisualizer\\sortenginebubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\ISortEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672C765-05E9-47BA-8175-7E62BB4A8C5A}|SortingVisualizer\\SortingVisualizer.csproj|solutionrelative:SortingVisualizer\\ISortEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\Form1.cs",
+              "RelativeDocumentMoniker": "SortingVisualizer\\Form1.cs",
+              "ToolTip": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\Form1.cs [Design]",
+              "RelativeToolTip": "SortingVisualizer\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T13:34:42.229Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\Program.cs",
+              "RelativeDocumentMoniker": "SortingVisualizer\\Program.cs",
+              "ToolTip": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\Program.cs",
+              "RelativeToolTip": "SortingVisualizer\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswBIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T13:29:20.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\Form1.cs",
+              "RelativeDocumentMoniker": "SortingVisualizer\\Form1.cs",
+              "ToolTip": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\Form1.cs",
+              "RelativeToolTip": "SortingVisualizer\\Form1.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAHAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T00:24:01.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISortEngine.cs",
+              "DocumentMoniker": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\ISortEngine.cs",
+              "RelativeDocumentMoniker": "SortingVisualizer\\ISortEngine.cs",
+              "ToolTip": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\ISortEngine.cs",
+              "RelativeToolTip": "SortingVisualizer\\ISortEngine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T00:24:01.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SortEngineBubble.cs",
+              "DocumentMoniker": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\SortEngineBubble.cs",
+              "RelativeDocumentMoniker": "SortingVisualizer\\SortEngineBubble.cs",
+              "ToolTip": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\SortEngineBubble.cs",
+              "RelativeToolTip": "SortingVisualizer\\SortEngineBubble.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA5wAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T00:24:01.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "SortingVisualizer\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\chase\\OneDrive\\Desktop\\Game Projects\\SortingVisualizer\\SortingVisualizer\\Form1.Designer.cs",
+              "RelativeToolTip": "SortingVisualizer\\Form1.Designer.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAowHcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T00:24:01.549Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

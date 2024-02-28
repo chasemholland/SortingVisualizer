@@ -18,6 +18,7 @@ namespace SortingVisualizer
         {
             InitializeComponent();
             PopulateDropdown();
+            
         }
 
         private void PopulateDropdown()
@@ -44,28 +45,7 @@ namespace SortingVisualizer
 
         private void Reset_Click(object sender, EventArgs e)
         {
-            // Create graphics
-            g = panel1.CreateGraphics();
-
-            g.Clear(Color.Black);
-
-            // Set max values
-            int numEntries = panel1.Width;
-            int maxVal = panel1.Height;
-
-            // Create array
-            theArray = new int[numEntries];
-
-            // Generate random numbers
-            Random randNums = new Random();
-            for (int i = 0; i < numEntries; i++)
-            {
-                theArray[i] = randNums.Next(0, maxVal);
-            }
-            for (int i = 0; i < numEntries; i++) 
-            { 
-                g.FillRectangle(new System.Drawing.SolidBrush(System.Drawing.Color.Green), i, maxVal - theArray[i], 1, maxVal);
-            }
+            FillPanel();
         }
 
 
@@ -76,7 +56,7 @@ namespace SortingVisualizer
 
         private void Form1_Resize(object sender, EventArgs e)
         {
-            Reset_Click(sender, e);
+            FillPanel();
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
@@ -116,6 +96,44 @@ namespace SortingVisualizer
             Sort.Enabled = true;
             Reset.Enabled = true;
             comboBox1.Enabled = true;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            FillPanel();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            FillPanel();
+        }
+
+        // Clears & fills the panel with random ints
+        private void FillPanel()
+        {
+            // Create graphics here to account for panel resizing
+            g = panel1.CreateGraphics();
+
+            // Clear graphics before showing new array
+            g.Clear(Color.Black);
+
+            // Set max values
+            int numEntries = panel1.Width;
+            int maxVal = panel1.Height;
+
+            // Create array
+            theArray = new int[numEntries];
+
+            // Generate random numbers
+            Random randNums = new Random();
+            for (int i = 0; i < numEntries; i++)
+            {
+                theArray[i] = randNums.Next(0, maxVal);
+            }
+            for (int i = 0; i < numEntries; i++)
+            {
+                g.FillRectangle(new System.Drawing.SolidBrush(System.Drawing.Color.Green), i, maxVal - theArray[i], 1, maxVal);
+            }
         }
     }
 }

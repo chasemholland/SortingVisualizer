@@ -53,6 +53,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 2;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // Reset
             // 
@@ -75,6 +76,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(772, 370);
             this.panel1.TabIndex = 4;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Sort
             // 
@@ -115,7 +117,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Sorting Visualizer";
             this.Resize += new System.EventHandler(this.Form1_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
